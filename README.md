@@ -16,7 +16,7 @@ This project demonstrates how to distill knowledge from a powerful pretrained tr
 2. After Cell 1 finishes, go to `Runtime → Restart Runtime` manually.
    - This restart is **required** to fix potential `numpy.strings` issues with Transformers.
    - Without this restart, some internal modules (like tokenizers and trainers) may not import correctly due to memory cache issues.
-3. After restart, just click “Runtime → Run all” and everything will execute from start to end!
+3. After restart, start the Runtime Execution from Cell 2 and everything will execute from start to end!
 
 
 #Performance Summary
